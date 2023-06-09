@@ -83,7 +83,7 @@ h1, h2, h3{
 
 #header{
     background: linear-gradient(rgba(0,0,0,0.5),
-    rgba(0,0,0,0.3)),url("../Assests/images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg") center/cover no-repeat fixed;
+    rgba(0,0,0,0.3)),url("../Asessts/images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg") center/cover no-repeat fixed;
     justify-content: flex-start;
     align-items: flex-end;
 }
@@ -194,7 +194,7 @@ h1, h2, h3{
 
 #work{
     background: linear-gradient(rgba(0, 0, 0, 0.7),
-    rgba(0,0,0,0.3)),url("../Assests/images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg") center/cover no-repeat fixed;
+    rgba(0,0,0,0.3)),url("../Asessts/images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg") center/cover no-repeat fixed;
     color: var(--light-color);
 }
 #work .title #Th2,#work #Th3{

@@ -2,371 +2,282 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WEB Profile</title>
-    <link rel="stylesheet" href="../CSS/WEBProfile.css">
-    <link rel="script" href="../JS/WEBProfile.js">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+    <link rel="stylesheet" href="../CSS/index.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family
+    =Bebas+Neue&family=Caveat:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation&family=
+    Gemunu+Libre:wght@200;400;600&family=Great+Vibes&family=Gruppo&family=Hind+Siliguri&family=Kaushan+Script&family=
+    Nanum+Myeongjo:wght@800&family=Noto+Serif+JP:wght@900&family=Noto+Serif+Sinhala:wght@100;400;600;900&family=
+    Orbitron:wght@400;700&family=Poppins:wght@300;400;500;600;700&family=Stick+No+Bills:wght@300;600;800&family=
+    Yaldevi:wght@200;400;500;600;700&family=Zeyada&display=swap" rel="stylesheet">
+<!--    <link rel="script" href="myprofile.js">-->
 
+    <link rel="stylesheet" href="../Asessts/Font_Awsome/font-orsam/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<section class="firstpage">
-    <main class="content">
-        <img id="FPIcon" src="../Assests/images/owlIcon.png" data-aos="fade-up-right" >
-        <div id="navigationBar">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portofolio</li>
-                <li>Education</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+<main class="HomePage">
+    <section class="First-Page" id="FP1">
+        <div class="Navigation-Bar" id="FP2">
+            <ul id="FPul1">
+                <a class="active">Home</a>
+                <a href="#SP1">About Me</a>
+              <!--  <a>Portfolio</a>-->
+                <a href="#TP3">Education</a>
+                <a href="#FP4">Skills</a>
+                <a href="#FFP5">Projects</a>
+                <a href="#SP6">Contact</a>
+                <a href="javascript:void (0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </ul>
+        </div>
+        <img id="FPul2" src="../Asessts/images/beautiful-shot-high-white-hilltops-mountains-covered-fog.jpg">
+<!--        <div class="First-UI" id="FPUI1"></div>-->
+        <div class="content1">
+            <h1 id="MainTag">Welcome To My Profile...</h1>
+        </div>
+        <div id="First-UiImg">
+            <img id="FimgMe" src="../Asessts/images/remake.jpg">
+        </div>
+        <div class="FContent">
+            <h2 id="FSubTag">I am Pasindu Pabsara Pitigala...</h2>
+            <h2 id="FSubTag2">UI / UX Designer and Developer</h2>
+        </div>
+    </section>
 
-            <!--    ==================================================     -->
+    <!--===========Second Page============-->
 
-            <div>
+    <section class="Second-Page" id="SP1">
+        <div class="content2">
+            <video id="SPUI1" src="../Asessts/video/pexels-pressmaster-3209211-960x540-25fps.mp4" autoplay muted loop></video>
+            <div class="transparent">
+                <h2 id="SPMainTag" data-text="What's About Me...">What's About Me...</h2>
 
-                <div class="full-wh">
+                <div class="transparent2">
+                    <p class="aboutme">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Asperiores autem dolores dolorum, eaque eligendi enim esse est
+                        excepturi iure magni nemo non nostrum nulla repellat tempore totam
+                        unde veritatis voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt dolores et inventore itaque sit unde, vero. Aperiam dicta dolor doloremque nostrum perspiciatis!
+                        Accusantium alias, eius ipsam nam repudiandae voluptatem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores et expedita fugiat fugit ipsam minima praesentium recusandae sunt voluptatibus? Accusantium alias consectetur
+                        distinctio dolorum enim, ex id ipsam omnis ullam.
+                    </p>
+                </div>
 
-                    <!-- STAR ANIMATION -->
-                    <div class="bg-animation">
-                        <div id='stars'></div>
-                        <div id='stars2'></div>
-                        <div id='stars3'></div>
-                        <div id='stars4'></div>
-                    </div><!-- / STAR ANIMATION -->
+             <!--   <div class="card">
 
+                </div>-->
+                <img src="../Asessts/images/myimage2.jpg" id="aboutmyimg">
+
+                <button class="cvbtn">Download Cv</button>
+                <button class="learnMorebtn">Learn More...</button>
+            </div>
+        </div>
+    </section>
+
+    <!--===========Third Page============-->
+
+    <section class="Third-Page" id="TP3">
+        <div class="thirdTransparent">
+            <h2 id="educationMain">EDUCATION...</h2>
+
+            <img class="eduImg" id="imgA" src="../Asessts/images/Velapura.jpeg">
+            <img class="eduImg" id="imgB" src="../Asessts/images/Vidyalaya.jpeg">
+            <img class="eduImg" id="imgC" src="../Asessts/images/ESOFT.jpeg">
+            <img class="eduImg" id="imgD" src="../Asessts/images/IJSE.png">
+
+
+            <div class="contentThird">
+                <h1>KALUTARA VELAPURA VIDYALAYA</h1>
+                <h1>KALUTARA VELAPURA VIDYALAYA</h1>
+            </div>
+
+            <div class="contentThird1">
+                <h1>KALUTARA VIDYALAYA NATIONAL SCHOOL</h1>
+                <h1>KALUTARA VIDYALAYA NATIONAL SCHOOL</h1>
+            </div>
+
+            <div class="contentThird2">
+                <h1>KALUTARA ESOFT METRO CAMPUS</h1>
+                <h1>KALUTARA ESOFT METRO CAMPUS</h1>
+            </div>
+
+            <div class="contentThird3">
+                <h1>INSTITUTE OF SOFTWARE ENGINEERING</h1>
+                <h1>INSTITUTE OF SOFTWARE ENGINEERING</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <!--===========Fourth Page============-->
+
+    <section class="Fourth-Page" id="FP4">
+
+           <img id="FPimg1" src="../Asessts/images/Skills (2).png">
+           <h1 id="FMainText">SKILLS...</h1>
+
+        <div id="wrap">
+            <div class="tile"><span></span>
+                <img id="iconOne" src="../Asessts/icon/java.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+            </div>
+            <div class="tile"><span></span>
+            <img id="iconTwo" src="../Asessts/icon/css-3.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+
+            </div>
+            <div class="tile"><span></span>
+                <img id="iconThree" src="../Asessts/icon/html.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+            </div>
+            <div class="tile"><span></span>
+                <img id="iconFour" src="../Asessts/icon/mysql.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+            </div>
+            <div class="tile"><span></span>
+                <img id="iconFive" src="../Asessts/icon/java-script.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+            </div>
+            <div class="tile"><span></span>
+                <img id="iconSix" src="../Asessts/icon/adobe-photoshop.png">
+                <p class="p">Java Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dignissimos ea eius quo repudiandae saepe! A aspernatur,
+                    quam qui, recusandae veritatis vero voluptatibus?</p>
+            </div>
+       <!--     <div class="tile"><span></span></div>
+            <div class="tile"><span></span></div>-->
+        <!--    <div class="tile"><span></span></div>-->
+        </div>
+
+    </section>
+
+    <!--============Fifth Page=============-->
+    <section class="Fifth-Page" id="FFP5">
+
+        <h1 class="projects">PROJECTS</h1>
+
+        <div id="projects">
+            <div class="container">
+
+                <div class="project-list">
+                    <div class="project">
+                        <img src="../Asessts/images/Hotel.jpg">
+                        <div class="layer">
+                            <h3>Commercial project</h3><br>
+                            <p class="prj1">Spair part Management System.</p><br>
+                            <a href="https://github.com/PasinduPabasaraPitigala/Spare-Parts-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="../Asessts/images/Hotel.jpg">
+                        <div class="layer">
+                            <h3>Object Oriented Programming.</h3><br>
+                            <p>Connect for game.</p><br>
+                            <a href="-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="../Asessts/images/Hotel.jpg">
+                        <div class="layer">
+                            <h3>Network Programming.</h3><br>
+                            <p>Live Chat Application.</p><br>
+                            <a href="https://github.com/PasinduPabasaraPitigala/Live-Chat-Application"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="../Asessts/images/Hotel.jpg">
+                        <div class="layer">
+                            <h3>Internet Technology</h3><br>
+                            <p>Internet technology Assignments</p><br>
+                            <a href="https://github.com/PasinduPabasaraPitigala/INTERNET-TECHNOLOGY-ASSIGNMENTS-HTML-CSS-JS-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <!--============================-->
-
-            <!--============================-->
-            <!-- =========================================================   -->
         </div>
-        <h1 id="MainTag" data-aos="zoom-in-down">Welcome To My Profile</h1>
-        <h2 id="Text1"><b>Who Am I</b></h2>
-        <h3 id="Text3">I <br> AM <br> PASINDU <br> PABASARA <br> PITIGALA</h3>
+    </section>
 
-        <h2 id="Text2">What I Do</h2>
-        <h3 id="Text4">I <br> AM <br> UI/UX <br> DESIGNER AND <br> DEVELOPER</h3>
+    <!--==============SixthPage================-->
 
-    </main>
-</section>
+    <section class="sixth-Page" id="SP6">
+        <div class="Contact">Contact Me...</div>
 
-<!-------------------------SECOND PAGE--------------------------------------------------------------------------------------------->
+                <div>
+                    <p class="lead"><i class="fas fa-phone-alt">
+                    </i> +0711 953 155</p>
+                    <p class="lead"><i class="fas fa-envelope">
+                    </i> pasiya077@gmail.com</p>
 
-<section class="secondPage">
-    <img id="img2" src="../Assests/images/WhatsApp%20Image%202023-05-09%20at%2000.23.jpg" class="animate__animated animate__bounce animate__repeat-2">
-    <div class="Stext1">
-        <h1>Whats About Me!!!</h1>
-        <p id="SecondText1">
-            I’m a Pasindu Pabasara pitigala.My<br>
-            passion is to become a UI/UX <br>
-            designer and developer.<br>
-            i’m Currently learning more  about
-            this <br>
-            at institute of java and Software <br>
-            Engineering.</p>
+        <form action="">
+            <input type="text" class="form-control"
+                   placeholder="Your name here ..."><br>
+            <input type="email" class="form-control"
+                   placeholder="Your email here">
+            <input type="email" class="form-message"
+                   placeholder="Your message here">
+            <input type="submit" class="btn-submit btn"
+                   value = "Submit">
+        </form>
     </div>
 
-    <div class="Stext2">
-        <h3>Social Media</h3>
-    </div>
-    <div>
-        <img id="img4" src="../Assests/images/R%20(4).png">
-        <img id="img5" src="../Assests/images/R%20(5).png">
-        <img id="img6" src="../Assests/images/Linkedin-Logo-Png-Transparent-Background-1.png">
-        <img id="img7" src="../Assests/images/R%20(6).png">
-    </div>
+        <img id="imgContact" src="../Asessts/images/coffeTable.jpeg">
 
-    <img id="img3" src="../Assests/images/WhatsApp%20Image%202023-05-09%20at%2000.23.jpg">
-
-    <button id="btn1">Download CV</button>
-</section>
-
-<!--====================THIRD PAGE===============================-->
-
-<section class="thirdpage">
-    <div id="maintag3">
-        <h1>P<br>O<br>R<br>T<br>O<br>F<br>O<br>L<br>I<br>O</h1>
-    </div>
-    <main>
-        <div class="container">
-            <div class="item">
-                <div class="quote">
-                    <p>I Am Groot.<span>Groot</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="quote">
-                    <p>You'r the head of security and your password is 'password'&nbsp;?<span>Peter Parker</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="quote">
-                    <p>That really is America's ass.<span>Captain America</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="quote">
-                    <p>The hardest choices require the strongest wills.<span>Thanos</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="quote">
-                    <p>Genius, billionaire, playboy, philanthropist.<span>Tony Stark</span></p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="quote">
-                    <p>We never lose our demons. We only learn to live above them.<span>Ancient One</span></p>
-                </div>
-            </div>
-        </div>
-    </main>
-
-</section>
-
-<!--====================Fourth PAGE===============================-->
-
-<section class="fourthpage">
-    <div class="timeline">
-        <canvas id="cvs3"></canvas>
-        <article>
-            <h2>My</h2>
-            <figure>
-                <figcaption>Kalutara Velapura Maha Vidyalaya</figcaption>
-                <h6>2005 - Primary Education </h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero. Ut ut libero in nibh convallis sollicitudin. Maecenas ante erat, lacinia commodo pretium vel, ultricies eget nibh. Duis et felis lectus. Donec orci libero, auctor eget sodales at, euismod venenatis nibh.
-                </p>
-            </figure>
-            <figure>
-                <figcaption>Kalutara National School</figcaption>
-                <h6>2014 - Ordanary and  Advanced Level  Education</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-                </p>
-            </figure>
-            <!--            <figure>-->
-            <!--                <figcaption>consectetur</figcaption>-->
-            <!--                <h6>2007 - 2010</h6>-->
-            <!--                <p>-->
-            <!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.-->
-            <!--                </p>-->
-            <!--            </figure>-->
-            <!--            <figure>-->
-            <!--                <figcaption>sit amet</figcaption>-->
-            <!--                <h6>2009</h6>-->
-            <!--                <p>-->
-            <!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.-->
-            <!--                </p>-->
-            <!--            </figure>-->
-        </article>
-
-        <article>
-            <h2>Education</h2>
-            <figure>
-                <figcaption>ESOFT Metro Campus</figcaption>
-                <h6>2020-2021 Diploma in Information Technology(Pearson University)</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-            </figure>
-            <figure>
-                <figcaption>IJSE- Panadura</figcaption>
-                <h6>2022 - Graduate Diploma in Software Engineering</h6>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.
-                </p>
-            </figure>
-            <!--            <figure>-->
-            <!--                <figcaption>adipiscing</figcaption>-->
-            <!--                <h6>2010</h6>-->
-            <!--                <p>-->
-            <!--                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et ipsum pulvinar, blandit neque in, ornare libero.-->
-            <!--                </p>-->
-            <!--            </figure>-->
-        </article>
-        <br style="clear:both" />
-    </div>
-
-</section>
+       <div class="iconIMG">
+           <a href="" ><i class="fa-brands fa-github"></i></a>
+           <a href="" ><i class="fa-brands fa-instagram"></i></a>
+           <a href="" ><i class="fa-brands fa-facebook"></i></a>
+           <a href="" ><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+    </section>
 
 
-<!--====================Fifth PAGE===============================-->
 
-<section class="fifthpage">
-    <div id="MainTAg5">
-        <h1>My Skills</h1>
-    </div>
-    <div class="SkillMain">
-        <div class="skillBar">
-            <div class="info">
-                <p>HTML</p>
-                <p class="percent">90%</p>
-            </div>
-            <div class="bar">
-                <span class="html"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>CSS</p>
-                <p class="percent">70%</p>
-            </div>
-            <div class="bar">
-                <span class="css"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>Java Script</p>
-                <p class="percent">60%</p>
-            </div>
-            <div class="bar">
-                <span class="javaScript"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>MYSQL</p>
-                <p class="percent">90%</p>
-            </div>
-            <div class="bar">
-                <span class="mysql"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>JAVA</p>
-                <p class="percent">50%</p>
-            </div>
-            <div class="bar">
-                <span class="java"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>FIGMA</p>
-                <p class="percent">85%</p>
-            </div>
-            <div class="bar">
-                <span class="figma"></span>
-            </div>
-        </div>
-
-        <div class="skillBar">
-            <div class="info">
-                <p>PHOTOSHOP</p>
-                <p class="percent">45%</p>
-            </div>
-            <div class="bar">
-                <span class="photshop"></span>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--====================Sixth PAGE===============================-->
-
-<section class="Sixthpage">
-    <div id="MainTAg6">
-        <h1>My Projects</h1>
-    </div>
-    <table>
-        <thead>
-        <th id="CP"><i>Commercial Projects</i></th>
-        <th id="AP"><i>Academic Projects</i></th>
-        <th id="Asgm"><i>Assignments</i></th>
-        </thead>
-        <tbody>
-        <tr id="tr1">
-            <td>
-                <button class="btn"><img id="Image1" src="../Assests/images/WhatsApp%20Image%202023-05-12%20at%2000.07.14.jpg" align="Center"></button>
-                <br>
-                <br>
-                <p id="prjt1">Spare Management System</p>
-            </td>
-
-            <td>
-                <button class="btn"><img id="Image2" src="../Assests/images/WhatsApp%20Image%202023-05-12%20at%2000.07.14.jpg" align="Center"></button>
-
-                <p id="prjt2" align="Center Right">Programming Fundamental Student Management System </p>
-            </td>
-
-            <td>
-                <button class="btn"> <img id="Image3" src="../Assests/images/WhatsApp%20Image%202023-05-12%20at%2000.07.14.jpg" align="Center"></button>
-
-                <p id="prjt3">Programming Fundamental Assigments.</p>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-
-            </td>
-
-            <td>
-
-                <button class="btn"><img id="Image4" src="../Assests/images/OOP.jpg" align="Center"></button>
-                <br>
-                <br>
-                <p id="prjt4">Objects Oriented Programming(OOP) game.</p>
-
-            </td>
-
-            <td>
-                <button class="btn"><img id="Image5" src="../Assests/images/MYSQL.jpg" align="Center"></button>
-
-                <p id="prjt5">Database Management System Assignment.</p>
-            </td>
-        </tr>
-
-        <tr>
-            <td></td>
-            <td>
-                <button class="btn"><img id="Image6" src="../Assests/images/Hotel.jpg" align="Center"></button>
-                <br>
-                <br>
-                <p id="prjt6">Hotel Management System(Prototype).</p>
-            </td>
-
-            <td>
-                <button class="btn"><img id="Image7" src="../Assests/images/OIP.jpg" align="Center"></button>
-
-                <p id="prjt7">Object Oriented programming assignments.</p>
-            </td>
-        </tr>
-
-        <tr>
-            <td></td>
-            <td></td>
-            <td>
-                <button class="btn"><img id="Image8" src="../Assests/images/OIP.jpg" align="Center"></button>
-
-                <p id="prjt8">Internet Technology Assignments.</p>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</section>
-
-<!--=================================SCRIPT=======================================-->
-<script src="../JS/WEBProfile.js"></script>
-<script src='../JS/WEBProfile.js'></script>
-<!--AOS LIBRARY SCRIPT-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</main>
+<script src="Asessts/lib/jquery-3.6.4.min.js"></script>
 <script>
-    AOS.init();
+    function myFunction() {
+        var x = document.getElementById("FP2");
+        if (x.className === "Navigation-Bar") {
+            x.className += " responsive";
+        } else {
+            x.className = "Navigation-Bar";
+        }
+    }
+
+    /*//////////////////////////*/
+    document.getElementById("wrap").onmousemove = e => {
+        for(const card of document.getElementsByClassName("tile")) {
+            const rect = card.getBoundingClientRect(),
+                x = e.clientX - rect.left,
+                y = e.clientY - rect.top;
+
+            card.style.setProperty("--mouse-x", `${x}px`);
+            card.style.setProperty("--mouse-y", `${y}px`);
+        };
+    }
 </script>
+
 </body>
 </html>

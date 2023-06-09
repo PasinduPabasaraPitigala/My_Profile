@@ -488,32 +488,32 @@ li{
 }
 
 .item:nth-child(1) {
-    background-image: url("../Assests/images/myimage1.png");
+    background-image: url("../Asessts/images/myimage1.png");
     background-position: 72% 35%;
 }
 
 .item:nth-child(2) {
-    background-image: url("../Assests/images/myimage2.jpg");
+    background-image: url("../Asessts/images/myimage2.jpg");
     background-position: 60% 8%;
 }
 
 .item:nth-child(3) {
-    background-image: url("../Assests/images/myimage3.jpg");
+    background-image: url("../Asessts/images/myimage3.jpg");
     background-position: 52% 8%;
 }
 
 .item:nth-child(4) {
-    background-image: url("../Assests/images/myimage4.jpg");
+    background-image: url("../Asessts/images/myimage4.jpg");
     background-position: 45% 8%;
 }
 
 .item:nth-child(5) {
-    background-image: url("../Assests/images/myimage5.jpg");
+    background-image: url("../Asessts/images/myimage5.jpg");
     background-position: 45% 25%;
 }
 
 .item:nth-child(6) {
-    background-image: url("../Assests/images/myimage6.jpg");
+    background-image: url("../Asessts/images/myimage6.jpg");
     background-position: 65% 2%;
 }
 

@@ -1,0 +1,33 @@
+.profile {
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h1, p {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
